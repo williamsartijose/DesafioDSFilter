@@ -1,5 +1,9 @@
-function App() {
-  return <h1>ola mundo</h1>;
-}
+import Header from "./components/common/Header";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <Header />
+    </>
+  )
+}
