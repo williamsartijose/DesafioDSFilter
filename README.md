@@ -98,9 +98,9 @@ const products: ProductDTO[] = [
 ];
 ```
 
-![Web 0](https://github.com/williamsartijose/DesafioGithubAP/blob/main/img/1.png)
+![Web 0](https://github.com/williamsartijose/DesafioDSFilter/blob/main/img/1.png)
 
-![Web 0](https://github.com/williamsartijose/DesafioGithubAP/blob/main/img/2.png)
+![Web 0](https://github.com/williamsartijose/DesafioDSFilter/blob/main/img/2.png)
 
 
 Critérios de correção
