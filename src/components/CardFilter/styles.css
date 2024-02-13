@@ -1,0 +1,35 @@
+.dsf-cardFilter-container {
+    background-color: var(--dsf-color-bg-tertiary);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.dsf-input-content {
+    margin-bottom: 20px;
+}
+
+.dsf-input-content input {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--dsf-color-font-secondary);
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.dsf-input-content input::placeholder {
+    font-size: 16px;
+    color: var(--dsf-color-font-secondary);
+}
+
+.dsf-cardFilter-container button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--dsf-color-bg-primary);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dsf-color-font-primary);
+}
