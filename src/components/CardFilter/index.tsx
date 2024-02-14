@@ -6,7 +6,11 @@ type FomData = {
   max?: number;
 };
 
-export default function CardFilter() {
+type Props = {
+    onFilter: Function;
+};
+
+export default function CardFilter({onFilter} : Props) {
   const [formData, setFormData] = useState<FomData>({});
 
   function handleInputChange(event: any) {
@@ -17,10 +21,9 @@ export default function CardFilter() {
 
   function handleSubmit(event : any) {
     event.preventDefault();
-    console.log(formData.min || 0);
-    console.log(formData.max || Number.MAX_VALUE);
-    
-    
+    const min = formData.min || 0;
+    const max = formData.max || Number.MAX_VALUE;
+    onFilter(min, max);
   }
 
   return (
