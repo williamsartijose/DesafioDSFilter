@@ -32,4 +32,5 @@
     font-size: 16px;
     font-weight: 700;
     color: var(--dsf-color-font-primary);
+    cursor: pointer;
 }
