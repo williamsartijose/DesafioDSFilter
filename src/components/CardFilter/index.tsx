@@ -7,10 +7,10 @@ type FomData = {
 };
 
 type Props = {
-    onFilter: Function;
+  onFilter: Function;
 };
 
-export default function CardFilter({onFilter} : Props) {
+export default function CardFilter({ onFilter }: Props) {
   const [formData, setFormData] = useState<FomData>({});
 
   function handleInputChange(event: any) {
@@ -19,7 +19,7 @@ export default function CardFilter({onFilter} : Props) {
     setFormData({ ...formData, [name]: value });
   }
 
-  function handleSubmit(event : any) {
+  function handleSubmit(event: any) {
     event.preventDefault();
     const min = formData.min || 0;
     const max = formData.max || Number.MAX_VALUE;
@@ -48,7 +48,9 @@ export default function CardFilter({onFilter} : Props) {
             onChange={handleInputChange}
           />
         </div>
-        <button onClick={handleSubmit} type="submit" >Filtrar</button>
+        <button onClick={handleSubmit} type="submit">
+          Filtrar
+        </button>
       </div>
     </form>
   );
