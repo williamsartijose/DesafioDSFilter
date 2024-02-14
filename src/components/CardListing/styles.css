@@ -1,9 +1,3 @@
-.dsf-cardListing-container {
-    background-color: var(--dsf-color-bg-tertiary);
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
 .dsf-cardListing-content {
     border: 1px solid  var(--dsf-color-border);
     padding: 10px;
